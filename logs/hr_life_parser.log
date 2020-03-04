@@ -1,0 +1,547 @@
+DEBUG:HrodnaLifeCrawler:Crawling page #0
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ru.hrodna.life:443
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #1
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/1
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/1 HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/ HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #2
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/2
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/2 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #3
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/3
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/3 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #4
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/4
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/4 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/
+DEBUG:HTTPClient:Performing request to https://news.tut.by/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): news.tut.by:443
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET / HTTP/1.1" 200 None
+DEBUG:HrodnaLifeCrawler:Crawling page #0
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ru.hrodna.life:443
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #1
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/1
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/1 HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/ HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #2
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/2
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/2 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #3
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/3
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/3 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #4
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/4
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/4 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/
+DEBUG:HTTPClient:Performing request to https://news.tut.by/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): news.tut.by:443
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET / HTTP/1.1" 200 None
+DEBUG:HrodnaLifeCrawler:Crawling page #0
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ru.hrodna.life:443
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #1
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/1
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/1 HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/ HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #2
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/2
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/2 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #3
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/3
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/3 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #4
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/4
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/4 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/
+DEBUG:HTTPClient:Performing request to https://news.tut.by/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): news.tut.by:443
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET / HTTP/1.1" 200 None
+DEBUG:HrodnaLifeCrawler:Crawling page #0
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ru.hrodna.life:443
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #1
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/1
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/1 HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/ HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #2
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/2
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/2 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #3
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/3
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/3 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #4
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/4
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/4 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/
+DEBUG:HTTPClient:Performing request to https://news.tut.by/
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): news.tut.by:443
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET / HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674821.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674821.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674821.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/675003.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/675003.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/675003.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/finance/674860.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/finance/674860.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /finance/674860.html HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.tut.by:443
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news674860.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674859.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674859.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674859.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674982.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674982.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674982.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://finance.tut.by/news674809.html
+DEBUG:HTTPClient:Performing request to https://finance.tut.by/news674809.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: finance.tut.by
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news674809.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674968.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674968.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674968.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://finance.tut.by/news674887.html
+DEBUG:HTTPClient:Performing request to https://finance.tut.by/news674887.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: finance.tut.by
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news674887.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674736.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674736.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674736.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://finance.tut.by/news674809.html
+DEBUG:HTTPClient:Performing request to https://finance.tut.by/news674809.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: finance.tut.by
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news674809.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674968.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674968.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674968.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://finance.tut.by/news674887.html
+DEBUG:HTTPClient:Performing request to https://finance.tut.by/news674887.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: finance.tut.by
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news674887.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674736.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674736.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674736.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674866.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674866.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674866.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674921.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674921.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674921.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674899.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674899.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674899.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/675011.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/675011.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/675011.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674976.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674976.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674976.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674965.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674965.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674965.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674959.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674959.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674959.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674948.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674948.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674948.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674947.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674947.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674947.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674945.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674945.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674945.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674944.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674944.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674944.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674929.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674929.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674929.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674922.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674922.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674922.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674917.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674917.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674917.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/culture/675009.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/culture/675009.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /culture/675009.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/culture/674995.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/culture/674995.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /culture/674995.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/culture/674986.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/culture/674986.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /culture/674986.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/culture/674971.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/culture/674971.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /culture/674971.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/culture/674932.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/culture/674932.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /culture/674932.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://finance.tut.by/news675013.html
+DEBUG:HTTPClient:Performing request to https://finance.tut.by/news675013.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: finance.tut.by
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news675013.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://finance.tut.by/news674951.html
+DEBUG:HTTPClient:Performing request to https://finance.tut.by/news674951.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: finance.tut.by
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news674951.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://finance.tut.by/news674949.html
+DEBUG:HTTPClient:Performing request to https://finance.tut.by/news674949.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: finance.tut.by
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news674949.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://finance.tut.by/news674910.html
+DEBUG:HTTPClient:Performing request to https://finance.tut.by/news674910.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: finance.tut.by
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news674910.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://finance.tut.by/news674887.html
+DEBUG:HTTPClient:Performing request to https://finance.tut.by/news674887.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: finance.tut.by
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news674887.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://finance.tut.by/news674734.html
+DEBUG:HTTPClient:Performing request to https://finance.tut.by/news674734.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: finance.tut.by
+DEBUG:urllib3.connectionpool:https://finance.tut.by:443 "GET /news674734.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://realty.tut.by/news/money/674789.html
+DEBUG:HTTPClient:Performing request to https://realty.tut.by/news/money/674789.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): realty.tut.by:443
+DEBUG:urllib3.connectionpool:https://realty.tut.by:443 "GET /news/money/674789.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://realty.tut.by/news/from-builder/674983.html
+DEBUG:HTTPClient:Performing request to https://realty.tut.by/news/from-builder/674983.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: realty.tut.by
+DEBUG:urllib3.connectionpool:https://realty.tut.by:443 "GET /news/from-builder/674983.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://realty.tut.by/news/building/674891.html
+DEBUG:HTTPClient:Performing request to https://realty.tut.by/news/building/674891.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: realty.tut.by
+DEBUG:urllib3.connectionpool:https://realty.tut.by:443 "GET /news/building/674891.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://42.tut.by/674993
+DEBUG:HTTPClient:Performing request to https://42.tut.by/674993
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 42.tut.by:443
+DEBUG:urllib3.connectionpool:https://42.tut.by:443 "GET /674993 HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://42.tut.by/675018
+DEBUG:HTTPClient:Performing request to https://42.tut.by/675018
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 42.tut.by
+DEBUG:urllib3.connectionpool:https://42.tut.by:443 "GET /675018 HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://42.tut.by/675015
+DEBUG:HTTPClient:Performing request to https://42.tut.by/675015
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 42.tut.by
+DEBUG:urllib3.connectionpool:https://42.tut.by:443 "GET /675015 HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://42.tut.by/675005
+DEBUG:HTTPClient:Performing request to https://42.tut.by/675005
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 42.tut.by
+DEBUG:urllib3.connectionpool:https://42.tut.by:443 "GET /675005 HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://42.tut.by/674941
+DEBUG:HTTPClient:Performing request to https://42.tut.by/674941
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 42.tut.by
+DEBUG:urllib3.connectionpool:https://42.tut.by:443 "GET /674941 HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://42.tut.by/674928
+DEBUG:HTTPClient:Performing request to https://42.tut.by/674928
+DEBUG:urllib3.connectionpool:Resetting dropped connection: 42.tut.by
+DEBUG:urllib3.connectionpool:https://42.tut.by:443 "GET /674928 HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/go/675000.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/go/675000.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /go/675000.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/go/674177.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/go/674177.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /go/674177.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/go/674938.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/go/674938.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /go/674938.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/popcorn/674967.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/popcorn/674967.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /popcorn/674967.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://afisha.tut.by/news/anews/674500.html
+DEBUG:HTTPClient:Performing request to https://afisha.tut.by/news/anews/674500.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): afisha.tut.by:443
+DEBUG:urllib3.connectionpool:https://afisha.tut.by:443 "GET /news/anews/674500.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/press/674829.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/press/674829.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /press/674829.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/press/674908.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/press/674908.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /press/674908.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/press/674855.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/press/674855.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /press/674855.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/press/671130.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/press/671130.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /press/671130.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674989.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674989.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674989.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/auto/674953.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/auto/674953.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /auto/674953.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/society/674984.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/society/674984.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /society/674984.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://afisha.tut.by/news/places/674927.html
+DEBUG:HTTPClient:Performing request to https://afisha.tut.by/news/places/674927.html
+DEBUG:urllib3.connectionpool:https://afisha.tut.by:443 "GET /news/places/674927.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/go/673542.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/go/673542.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /go/673542.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674975.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674975.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674975.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674968.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674968.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674968.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674966.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674966.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674966.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674946.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674946.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674946.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674923.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674923.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674923.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/economics/674867.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/economics/674867.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /economics/674867.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/675016.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/675016.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/675016.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674997.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674997.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674997.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674994.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674994.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674994.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674979.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674979.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674979.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674978.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674978.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674978.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674977.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674977.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674977.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674972.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674972.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674972.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674969.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674969.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674969.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674958.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674958.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674958.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674956.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674956.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674956.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674919.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674919.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674919.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/world/674904.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/world/674904.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /world/674904.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/accidents/675006.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/accidents/675006.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /accidents/675006.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/accidents/674980.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/accidents/674980.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /accidents/674980.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://sport.tut.by/news/football/675010.html
+DEBUG:HTTPClient:Performing request to https://sport.tut.by/news/football/675010.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sport.tut.by:443
+DEBUG:urllib3.connectionpool:https://sport.tut.by:443 "GET /news/football/675010.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://sport.tut.by/news/tennis/674973.html
+DEBUG:HTTPClient:Performing request to https://sport.tut.by/news/tennis/674973.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: sport.tut.by
+DEBUG:urllib3.connectionpool:https://sport.tut.by:443 "GET /news/tennis/674973.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://sport.tut.by/news/hockey/674998.html
+DEBUG:HTTPClient:Performing request to https://sport.tut.by/news/hockey/674998.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: sport.tut.by
+DEBUG:urllib3.connectionpool:https://sport.tut.by:443 "GET /news/hockey/674998.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://sport.tut.by/news/velosport/674970.html
+DEBUG:HTTPClient:Performing request to https://sport.tut.by/news/velosport/674970.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: sport.tut.by
+DEBUG:urllib3.connectionpool:https://sport.tut.by:443 "GET /news/velosport/674970.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://sport.tut.by/news/football/674985.html
+DEBUG:HTTPClient:Performing request to https://sport.tut.by/news/football/674985.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: sport.tut.by
+DEBUG:urllib3.connectionpool:https://sport.tut.by:443 "GET /news/football/674985.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://sport.tut.by/news/football/674963.html
+DEBUG:HTTPClient:Performing request to https://sport.tut.by/news/football/674963.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: sport.tut.by
+DEBUG:urllib3.connectionpool:https://sport.tut.by:443 "GET /news/football/674963.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://sport.tut.by/news/football/674961.html
+DEBUG:HTTPClient:Performing request to https://sport.tut.by/news/football/674961.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: sport.tut.by
+DEBUG:urllib3.connectionpool:https://sport.tut.by:443 "GET /news/football/674961.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://sport.tut.by/news/football/674960.html
+DEBUG:HTTPClient:Performing request to https://sport.tut.by/news/football/674960.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: sport.tut.by
+DEBUG:urllib3.connectionpool:https://sport.tut.by:443 "GET /news/football/674960.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://sport.tut.by/news/football/674823.html
+DEBUG:HTTPClient:Performing request to https://sport.tut.by/news/football/674823.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: sport.tut.by
+DEBUG:urllib3.connectionpool:https://sport.tut.by:443 "GET /news/football/674823.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://auto.tut.by/news/offtop/674935.html
+DEBUG:HTTPClient:Performing request to https://auto.tut.by/news/offtop/674935.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): auto.tut.by:443
+DEBUG:urllib3.connectionpool:https://auto.tut.by:443 "GET /news/offtop/674935.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://auto.tut.by/news/autonews/674952.html
+DEBUG:HTTPClient:Performing request to https://auto.tut.by/news/autonews/674952.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: auto.tut.by
+DEBUG:urllib3.connectionpool:https://auto.tut.by:443 "GET /news/autonews/674952.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://auto.tut.by/news/autonews/674964.html
+DEBUG:HTTPClient:Performing request to https://auto.tut.by/news/autonews/674964.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: auto.tut.by
+DEBUG:urllib3.connectionpool:https://auto.tut.by:443 "GET /news/autonews/674964.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://auto.tut.by/news/autonews/674974.html
+DEBUG:HTTPClient:Performing request to https://auto.tut.by/news/autonews/674974.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: auto.tut.by
+DEBUG:urllib3.connectionpool:https://auto.tut.by:443 "GET /news/autonews/674974.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://auto.tut.by/news/autonews/674926.html
+DEBUG:HTTPClient:Performing request to https://auto.tut.by/news/autonews/674926.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: auto.tut.by
+DEBUG:urllib3.connectionpool:https://auto.tut.by:443 "GET /news/autonews/674926.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://lady.tut.by/news/mylife/675017.html
+DEBUG:HTTPClient:Performing request to https://lady.tut.by/news/mylife/675017.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): lady.tut.by:443
+DEBUG:urllib3.connectionpool:https://lady.tut.by:443 "GET /news/mylife/675017.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://lady.tut.by/news/style/674667.html
+DEBUG:HTTPClient:Performing request to https://lady.tut.by/news/style/674667.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: lady.tut.by
+DEBUG:urllib3.connectionpool:https://lady.tut.by:443 "GET /news/style/674667.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://lady.tut.by/news/body/674940.html
+DEBUG:HTTPClient:Performing request to https://lady.tut.by/news/body/674940.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: lady.tut.by
+DEBUG:urllib3.connectionpool:https://lady.tut.by:443 "GET /news/body/674940.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://lady.tut.by/news/tips-lawyer/674916.html
+DEBUG:HTTPClient:Performing request to https://lady.tut.by/news/tips-lawyer/674916.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: lady.tut.by
+DEBUG:urllib3.connectionpool:https://lady.tut.by:443 "GET /news/tips-lawyer/674916.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://lady.tut.by/news/life/674684.html
+DEBUG:HTTPClient:Performing request to https://lady.tut.by/news/life/674684.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: lady.tut.by
+DEBUG:urllib3.connectionpool:https://lady.tut.by:443 "GET /news/life/674684.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://afisha.tut.by/news/anews/674460.html
+DEBUG:HTTPClient:Performing request to https://afisha.tut.by/news/anews/674460.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: afisha.tut.by
+DEBUG:urllib3.connectionpool:https://afisha.tut.by:443 "GET /news/anews/674460.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://afisha.tut.by/news/anews/675002.html
+DEBUG:HTTPClient:Performing request to https://afisha.tut.by/news/anews/675002.html
+DEBUG:urllib3.connectionpool:https://afisha.tut.by:443 "GET /news/anews/675002.html HTTP/1.1" 200 None
+DEBUG:TutbyCrawler:Crawling url #https://news.tut.by/tamby/674270.html
+DEBUG:HTTPClient:Performing request to https://news.tut.by/tamby/674270.html
+DEBUG:urllib3.connectionpool:Resetting dropped connection: news.tut.by
+DEBUG:urllib3.connectionpool:https://news.tut.by:443 "GET /tamby/674270.html HTTP/1.1" 200 None
+DEBUG:NavinybyCrawler:Crawling page #0
+DEBUG:HTTPClient:Performing request to https://naviny.by/archive/news?page=0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): naviny.by:443
+DEBUG:urllib3.connectionpool:https://naviny.by:443 "GET /archive/news?page=0 HTTP/1.1" 200 None
+DEBUG:NavinyByParser:Found 22 articles
+DEBUG:NavinyByParser:Problem with HTML code in /new/20200304/1583302358-lukashenko-podpisal-ukaz-ob-akcizah-na-avtotoplivo-stavki-vyrosli-v-chetyre
+DEBUG:NavinyByParser:Problem with HTML code in /new/20200303/1583256942-v-belarusi-podtverzhden-chetvertyy-sluchay-zarazheniya-sovid-19
+DEBUG:NavinybyCrawler:Crawling page #1
+DEBUG:HTTPClient:Performing request to https://naviny.by/archive/news?page=1
+DEBUG:urllib3.connectionpool:https://naviny.by:443 "GET /archive/news?page=1 HTTP/1.1" 200 None
+DEBUG:NavinyByParser:Found 22 articles
+DEBUG:NavinyByParser:Problem with HTML code in /new/20200303/1583235336-festival-zhenskogo-animacionnogo-kino-proydet-v-minskom-kinoteatre-pioner
+DEBUG:NavinyByParser:Problem with HTML code in /new/20200303/1583228472-uznat-korrupcionera-mozhno-po-otchestvu-gazeta-moskovskoy-policii-rasskazala
+DEBUG:NavinybyCrawler:Crawling page #2
+DEBUG:HTTPClient:Performing request to https://naviny.by/archive/news?page=2
+DEBUG:urllib3.connectionpool:https://naviny.by:443 "GET /archive/news?page=2 HTTP/1.1" 200 None
+DEBUG:NavinyByParser:Found 22 articles
+DEBUG:NavinyByParser:Problem with HTML code in /new/20200302/1583180309-minzdrav-belarusi-obvinyaet-rossiyskiy-pervyy-kanal-vo-lzhi
+DEBUG:NavinyByParser:Problem with HTML code in /new/20200302/1583169234-belarus-rasschityvaet-na-postavku-do-milliiona-tonn-azerbaydzhanskoy-nefti
+DEBUG:NavinybyCrawler:Crawling page #3
+DEBUG:HTTPClient:Performing request to https://naviny.by/archive/news?page=3
+DEBUG:urllib3.connectionpool:https://naviny.by:443 "GET /archive/news?page=3 HTTP/1.1" 200 None
+DEBUG:NavinyByParser:Found 22 articles
+DEBUG:NavinyByParser:Problem with HTML code in /new/20200302/1583151293-v-buda-koshelevo-budut-sudit-podrostka-kotoryy-v-potasovke-na-peremene-ubil
+DEBUG:NavinyByParser:Problem with HTML code in /new/20200302/1583146733-v-lelchickom-rayone-v-kanale-utonul-selchanin
+DEBUG:NavinybyCrawler:Crawling page #4
+DEBUG:HTTPClient:Performing request to https://naviny.by/archive/news?page=4
+DEBUG:urllib3.connectionpool:https://naviny.by:443 "GET /archive/news?page=4 HTTP/1.1" 200 None
+DEBUG:NavinyByParser:Found 22 articles
+DEBUG:NavinyByParser:Problem with HTML code in /new/20200302/1583133944-dollar-padaet-na-otkrytii-pervyh-torgov-marta
+DEBUG:NavinyByParser:Problem with HTML code in /new/20200302/1583124870-koronavirus-covid-19-zabral-zhizni-bolee-3-tys-chelovek

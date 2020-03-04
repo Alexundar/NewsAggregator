@@ -1,0 +1,115 @@
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ru.hrodna.life:443
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0 HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0/ HTTP/1.1" 200 None
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ru.hrodna.life:443
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/1
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/1 HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/ HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/2
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/2 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/3
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/3 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/4
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/4 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ru.hrodna.life:443
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/1
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/1 HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/ HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/2
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/2 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/3
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/3 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #{page}
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/4
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/4 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #0
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ru.hrodna.life:443
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #1
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/1
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/1 HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/ HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #2
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/2
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/2 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #3
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/3
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/3 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #4
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/4
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/4 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #0
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ru.hrodna.life:443
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #1
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/1
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/1 HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/ HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #2
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/2
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/2 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #3
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/3
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/3 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #4
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/4
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/4 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #0
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ru.hrodna.life:443
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/0 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #1
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/1
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/1 HTTP/1.1" 301 None
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/ HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #2
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/2
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/2 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #3
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/3
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/3 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles
+DEBUG:HrodnaLifeCrawler:Crawling page #4
+DEBUG:HTTPClient:Performing request to https://ru.hrodna.life/novosti/page/4
+DEBUG:urllib3.connectionpool:https://ru.hrodna.life:443 "GET /novosti/page/4 HTTP/1.1" 200 None
+DEBUG:HrodnaLifeParser:Found 10 articles

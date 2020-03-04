@@ -1,0 +1,3 @@
+from crawler.hrodna_life_crawler import HrodnaLifeCrawler
+from crawler.navinyby_crawler import NavinybyCrawler
+from crawler.tutby_crawler import TutbyCrawler

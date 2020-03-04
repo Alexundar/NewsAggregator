@@ -1,0 +1,3 @@
+from scraper.hrodna_life_scraper import HrodnaLifeScraper
+from scraper.navinyby_scraper import NavinybyScraper
+from scraper.tutby_scraper import TutByScraper

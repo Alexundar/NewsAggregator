@@ -1,0 +1,1 @@
+from storage.news_filter_storage import NewsFileStorage
