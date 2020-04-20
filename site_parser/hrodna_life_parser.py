@@ -9,7 +9,7 @@ class HrodnaLifeParser(AbstractParser):
     def __init__(self):
         self.logger = logging.getLogger(HrodnaLifeParser.__name__)
 
-    def parse(self, content):
+    def parse(self, content, site):
         news = []
         soup = BeautifulSoup(content, 'html.parser')
         articles = soup.find_all('article', attrs={'class': 'list-post'})
@@ -19,6 +19,7 @@ class HrodnaLifeParser(AbstractParser):
             url = header.find('a')['href']
             text = article.find('p').text
             news.append({
+                'site_name': site,
                 'URL': url,
                 'header': header.text,
                 'text': text

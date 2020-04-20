@@ -1,14 +1,12 @@
-import logging
-
 from crawler.abstract_crawler import AbstractCrawler
+from mixins import HrodnaLifeTelemetryMixin
 
 
-class HrodnaLifeCrawler(AbstractCrawler):
+class HrodnaLifeCrawler(AbstractCrawler, HrodnaLifeTelemetryMixin):
     BASE_URL = 'https://ru.hrodna.life/novosti/page/{page}'
 
     def __init__(self, http_client):
         super().__init__(http_client)
-        self.logger = logging.getLogger(HrodnaLifeCrawler.__name__)
 
     def crawl(self, number_of_pages):
         with self.http_client:

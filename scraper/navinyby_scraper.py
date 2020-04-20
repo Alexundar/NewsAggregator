@@ -10,8 +10,8 @@ class NavinybyScraper(AbstractScraper):
         self.crawler = NavinybyCrawler(http_client)
         self.parser = NavinyByParser()
 
-    def scrape(self):
+    def scrape(self, site):
         news = []
         for content in self.crawler.crawl(self.NUMBER_OF_PAGES):
-            news.extend(self.parser.parse(content))
+            news.extend(self.parser.parse(content, site))
         return news

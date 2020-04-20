@@ -1,25 +1,29 @@
-import logging
+import json
+import logging.config
 
 from client import HTTPClient
-from scraper import HrodnaLifeScraper, TutByScraper, NavinybyScraper
-from storage import NewsFileStorage
+from scraper import NavinybyScraper, TutByScraper, HrodnaLifeScraper
+from storage import NewsFileStorage, NewsMongoStorage
+
+SCRAPERS = {
+    'hrodna_life': HrodnaLifeScraper,
+    'tutby': TutByScraper,
+    'navinyby': NavinybyScraper
+}
+
+
+def read_logging_configuration():
+    with open('logging_configuration.json') as file:
+        return json.loads(file.read())
+
 
 if __name__ == '__main__':
-    logging.basicConfig(filename='logs/hr_life_parser.log', level=logging.DEBUG)
+    logging.config.dictConfig(read_logging_configuration())
     client = HTTPClient()
-    scraper = HrodnaLifeScraper(client)
-    news = scraper.scrape()
-    storage = NewsFileStorage('hrodna_life')
-    storage.store(news)
-    logging.basicConfig(filename='logs/tutby_parser.log', level=logging.DEBUG)
-    client = HTTPClient()
-    scraper = TutByScraper(client)
-    news = scraper.scrape()
-    storage = NewsFileStorage('tutby')
-    storage.store(news)
-    logging.basicConfig(filename='logs/naviny_parser.log', level=logging.DEBUG)
-    client = HTTPClient()
-    scraper = NavinybyScraper(client)
-    news = scraper.scrape()
-    storage = NewsFileStorage('navinyby')
-    storage.store(news)
+    db = NewsMongoStorage()
+    for site, Scraper in SCRAPERS.items():
+        scraper = Scraper(client)
+        news = scraper.scrape(site)
+        storage = NewsFileStorage(site)
+        storage.store(news)
+        db.store(news)

@@ -10,8 +10,8 @@ class HrodnaLifeScraper(AbstractScraper):
         self.crawler = HrodnaLifeCrawler(http_client)
         self.parser = HrodnaLifeParser()
 
-    def scrape(self):
+    def scrape(self, site):
         news = []
         for content in self.crawler.crawl(self.NUMBER_OF_PAGES):
-            news.extend(self.parser.parse(content))
+            news.extend(self.parser.parse(content, site))
         return news

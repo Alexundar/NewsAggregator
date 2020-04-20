@@ -9,7 +9,7 @@ class NavinyByParser(AbstractParser):
     def __init__(self):
         self.logger = logging.getLogger(NavinyByParser.__name__)
 
-    def parse(self, content):
+    def parse(self, content, site):
         news = []
         soup = BeautifulSoup(content, 'html.parser')
         articles = soup.find_all('div', attrs={'class': 'media'})
@@ -20,10 +20,11 @@ class NavinyByParser(AbstractParser):
                 url = header.find('a')['href']
                 text = article.find('p').text
                 news.append({
+                    'site_name': site,
                     'URL': url,
                     'header': header.text,
                     'text': text
                 })
-            except:
-                self.logger.debug(f'Problem with HTML code in {url}')
+            except Exception as exception:
+                self.logger.warning(f'Problem with HTML code in {url}: {exception}')
         return news

@@ -1,1 +1,2 @@
-from storage.news_filter_storage import NewsFileStorage
+from storage.news_file_storage import NewsFileStorage
+from storage.news_mongo_storage import NewsMongoStorage

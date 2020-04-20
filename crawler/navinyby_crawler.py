@@ -1,14 +1,12 @@
-import logging
-
 from crawler.abstract_crawler import AbstractCrawler
+from mixins import NavinyByTelemetryMixin
 
 
-class NavinybyCrawler(AbstractCrawler):
+class NavinybyCrawler(AbstractCrawler, NavinyByTelemetryMixin):
     BASE_URL = 'https://naviny.by/archive/news?page={page}'
 
     def __init__(self, http_client):
         super().__init__(http_client)
-        self.logger = logging.getLogger(NavinybyCrawler.__name__)
 
     def crawl(self, number_of_pages):
         with self.http_client:

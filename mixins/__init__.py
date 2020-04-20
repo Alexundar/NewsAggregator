@@ -1,0 +1,4 @@
+from mixins.hrodna_life_telemetry_mixin import HrodnaLifeTelemetryMixin
+from mixins.naviny_by_telemetry_mixin import NavinyByTelemetryMixin
+from mixins.storage_telemetry_mixin import StorageTelemetryMixin
+from mixins.tut_by_telemetry_mixin import TutByTelemetryMixin

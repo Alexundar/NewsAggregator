@@ -1,0 +1,3 @@
+from async_scraper.hrodna_life_async_scraper import HrodnaLifeAsyncScraper
+from async_scraper.navinyby_async_scraper import NavinybyAsyncScraper
+from async_scraper.tutby_async_scraper import TutByAsyncScraper
