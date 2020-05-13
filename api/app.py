@@ -1,11 +1,13 @@
+import asyncio
 import json
 
 from flask import Flask
 
+import async_main
 from storage import NewsMongoStorage
 
 app = Flask(__name__)
-
+asyncio.run(async_main.async_main())
 db = NewsMongoStorage()
 
 

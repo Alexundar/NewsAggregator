@@ -3,8 +3,13 @@ web:
   ports:
     - "5000:5000"
   volumes:
-    - .:/todo
+    - .:/app
+  environment:
+    - FLASK_APP=app/main.py
+    - FLASK_DEBUG=development
   links:
     - db
 db:
-  image: mongo:3.0.2
+  image: mongo
+  ports:
+    - "27017:27017"

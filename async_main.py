@@ -7,9 +7,9 @@ from client import AsyncHTTPClient
 from storage import NewsMongoStorage
 
 SCRAPERS = {
-    'hrodna_life': HrodnaLifeAsyncScraper,
-    'tutby': TutByAsyncScraper,
-    'navinyby': NavinybyAsyncScraper
+    'hrodna_life': HrodnaLifeAsyncScraper#,
+    #'tutby': TutByAsyncScraper,
+    #'navinyby': NavinybyAsyncScraper
 }
 
 
@@ -26,10 +26,11 @@ async def async_main():
     for site, Scraper in SCRAPERS.items():
         scraper = Scraper(async_http_client)
         news.append(scraper.async_scrape(site))
-    for piece_of_news in asyncio.as_completed(news):
-        data = await piece_of_news
-        db.store(data)
+    news = asyncio.as_completed(news)
+    for piece_of_news in news:
+        db.store(await piece_of_news)
 
-
+'''
 if __name__ == '__main__':
     asyncio.run(async_main())
+'''
