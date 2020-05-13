@@ -5,11 +5,9 @@ web:
   volumes:
     - .:/app
   environment:
-    - FLASK_APP=app/main.py
+    - FLASK_APP=api/app.py
     - FLASK_DEBUG=development
   links:
     - db
 db:
   image: mongo
-  ports:
-    - "27017:27017"

@@ -7,9 +7,9 @@ from client import AsyncHTTPClient
 from storage import NewsMongoStorage
 
 SCRAPERS = {
-    'hrodna_life': HrodnaLifeAsyncScraper#,
-    #'tutby': TutByAsyncScraper,
-    #'navinyby': NavinybyAsyncScraper
+    'hrodna_life': HrodnaLifeAsyncScraper,
+    'tutby': TutByAsyncScraper,
+    'navinyby': NavinybyAsyncScraper
 }
 
 
@@ -30,7 +30,6 @@ async def async_main():
     for piece_of_news in news:
         db.store(await piece_of_news)
 
-'''
+
 if __name__ == '__main__':
     asyncio.run(async_main())
-'''
