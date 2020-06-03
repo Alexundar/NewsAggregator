@@ -19,5 +19,5 @@ class AsyncHTTPClient(AbstractAsyncHTTPClient):
 
     async def get(self, url, headers=None):
         self.logger.debug(f'Performing request to {url}')
-        async with self.session.get(url, headers=headers) as response:
+        async with self.session.get(url, ssl=False, headers=headers) as response:
             return response.status, await response.read()
