@@ -12,5 +12,9 @@ class AbstractNewsStorage(ABC, StorageTelemetryMixin):
         pass
 
     @abstractmethod
+    def delete(self):
+        pass
+
+    @abstractmethod
     def find(self, site):
         pass
