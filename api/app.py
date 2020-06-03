@@ -1,5 +1,6 @@
 import asyncio
 import json
+from multiprocessing import Process
 
 from flask import Flask
 
@@ -7,8 +8,11 @@ import async_main
 from storage import NewsMongoStorage
 
 app = Flask(__name__)
-asyncio.run(async_main.async_main())
 db = NewsMongoStorage()
+
+
+def scrape_news():
+    asyncio.run(async_main.async_main())
 
 
 def convert_to_dto(news):
@@ -46,5 +50,8 @@ def get_news_by_site(site):
         return 'Not found', 404
 
 
-if __name__ == '__name__':
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0')
+    scrapping_process = Process(target=scrape_news)
+    scrapping_process.terminate()
+    scrapping_process.join()
