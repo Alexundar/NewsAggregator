@@ -14,5 +14,8 @@ class NewsFileStorage(AbstractNewsStorage):
         with open(self.FILENAME.format(site=self.site), 'w', encoding="UTF-8") as file:
             json.dump(news, file, sort_keys=True, indent=2, ensure_ascii=False)
 
+    def delete(self):
+        raise NotImplementedError()
+
     def find(self, site):
         raise NotImplementedError()
